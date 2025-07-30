@@ -1,0 +1,395 @@
+.backimage{
+    background: linear-gradient(to right,rgba(0,0,0,0.2)),url("backimage.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+#navbar{
+    background: #bdcfb5 !important;
+}
+.trans{
+    background: #bdcfb5;
+}
+
+
+.top-area{
+    text-align: center;
+}
+
+.main-fluid{
+    background: linear-gradient(to right,#bdcfb5);
+    opacity: 0.8
+}
+
+.top{
+    padding: 20px  6% 20px 6%;
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.image1 img{
+    display: inline;
+}
+
+
+.box{
+    display: inline-block;
+    padding: 12px 10px 10px;
+}
+
+/* main area view */
+
+.main-area{
+    color: white;
+    text-align: right;
+    width: 100%;
+    padding: 5% 0 12%;
+}
+
+
+
+.main-area .col-12{
+    text-align: right;
+    
+}
+
+
+#main-content{
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+#main-content h1{
+    font-size: 400%;
+}
+
+#main-content p{
+    padding:2% 0;
+}
+
+
+.shop{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background: #014B40;
+    padding: 4% 10%;
+    border-radius: 10px;
+    color: white;
+}
+
+.shop:last-child{
+    margin-left: 4%;
+    background: transparent;
+}
+
+/* feature */
+
+.feature{
+    padding: 100px 2%;
+}
+
+
+.feature h2{
+    text-align: left;
+}
+
+.feature h5{
+    text-align: right;
+}
+
+.feature .row:last-child{
+    padding: 50px 0;
+}
+
+.box1{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+
+}
+
+.box1:hover .para{
+    z-index:1;
+    bottom: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.box1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.para{
+    background: black;
+    padding: 10px 10px;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom:-200px;
+    z-index: -1;
+    opacity: .8;
+     transition: all 2s ease-in-out;
+}
+
+
+
+.para-content{
+    display: inline-block;
+}
+
+.buy{
+    display: inline-block;
+    background: transparent;
+    vertical-align: middle;
+    text-align: center;
+    padding: 4% 8%;
+    border-radius: 15px;
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.buy:hover{
+    color: black;
+    background: white;
+}
+
+
+/*  filter */
+
+
+.filter{
+    background: url("Rectangle\ 16.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: relative;
+    padding: 100px 2%;
+    margin: 0 auto;
+}
+
+
+.filter::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height:35%;
+    background:url("leaf2.png") no-repeat top right;
+    background-size: contain;
+}
+.filter::before{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 50%;
+    height:30%;
+    background:url("leaf1.png") no-repeat;
+    background-size: contain;
+}
+.filter input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.filter img{
+    width: 100%;
+}
+.jk{
+    text-align: right;
+    width: 100%;
+}
+.jk img{
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+/* Arrivals */
+
+
+.box2 img{
+    margin-top: 10px;
+    
+}
+.arrivals{
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+
+.arrivals h4{
+    text-align: right;
+}
+
+.arrivals .row:first-child{
+    padding-bottom: 5%;
+}
+
+.arrivals img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* plant stand */
+
+.stand{
+    padding: 40px 8%;
+}
+
+.stand .row:first-child{
+    padding: 0 0 4% 0;
+}
+
+
+.stand .row:last-child img{
+    width: 100%;
+}
+
+/* contact */
+
+.contact{
+    text-align: center;
+    padding: 100px 10%;
+    color: white;
+    margin: 0 auto;
+}
+
+.contact .container{
+    border-radius: 20px;
+    background:linear-gradient(rgba(0,0,0,0.5)),url("shopha.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 5% 10%;
+}
+.first{
+    text-align: center;
+
+}
+
+.contact h1{
+    line-height: 40px;
+}
+
+#line{
+    line-height: 60px;
+    color: rgba(255,255,255,0.8);
+}
+
+.first h5{
+    display: inline-block;
+}
+
+#mail{
+    margin-left: 25px;
+}
+
+/* footer */
+
+footer{
+    background: #014b40;
+    padding: 100px 10%;
+    color: white;
+    margin: 0 auto;
+}
+
+footer .row:first-child{
+    padding-bottom: 50px;
+}
+
+
+#logo-content p{
+    padding-top: 20px;
+}
+
+#input-issue{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    position: relative;
+    background: transparent;
+}
+
+#input-issue input{
+    background:#1A5D53;
+    width:100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #014B40;
+    font-weight: bold;
+    padding-left: 10px;
+    outline: none;
+}
+#send{
+    position: absolute;
+    bottom: 8px;
+    right:15px;
+    color: black;
+    background: #014B40;
+    padding: 10px 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align:center;
+
+}
+
+#send img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.only{
+    padding-top: 10px;
+}
+
+.only ul{
+    padding: 0;
+}
+
+.only ul li{
+    list-style-type: none;
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.add img{
+    padding: 5px;
+    background: #1A5D53;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.num{
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 20px 0 0 10px;
+}
+
+.end{
+    background: #1A5D53;;
+    padding: 25px 0 13px 10px ;
+    border-radius: 15px;
+}
+
+.end p{
+    font-size: 18px;
+}
+
+.end img{
+    margin-left:20px;
+    padding-right: 15px;
+}
